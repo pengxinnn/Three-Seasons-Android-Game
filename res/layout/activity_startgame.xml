@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="214dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="250dp"
+        android:onClick="onClick"
+        android:text="New Game" />
+
+    <Button
+        android:id="@+id/viewRecords"
+        android:layout_width="214dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="-215dp"
+        android:layout_marginTop="200dp"
+        android:onClick="onClick"
+        android:text="View Recoreds" />
+</LinearLayout>

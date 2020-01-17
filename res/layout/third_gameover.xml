@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gameover"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:text="CONGRATS!"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/finaltime"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="Time: "
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="Score: "
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/numMove"
+        android:layout_marginLeft="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="Moves: "
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/statics"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="500dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="onClick"
+        android:text="View Statics" />
+
+</LinearLayout>

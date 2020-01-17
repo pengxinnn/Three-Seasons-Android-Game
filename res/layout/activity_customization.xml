@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customization">
+
+    <Button
+        android:id="@+id/knight"
+        android:layout_width="269dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="418dp"
+        android:onClick="onClick"
+        android:text="Knight Mode"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/elf"
+        android:layout_width="280dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="177dp"
+        android:onClick="onClick"
+        android:text="ELF MODE"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/knight"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
